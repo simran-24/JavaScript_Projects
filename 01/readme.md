@@ -2,7 +2,7 @@
 
 This project is made up by using HTML,CSS and JavaScript.
 
-[Output](https://youtu.be/BkU5_OKENL8)
+[Output :- https://youtu.be/BkU5_OKENL8](https://youtu.be/BkU5_OKENL8)
 
  
 ### Stay tuned!
