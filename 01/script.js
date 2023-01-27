@@ -21,14 +21,14 @@ function randomcolor()
 //  change the color and coordinates of the circle displayed on the screen
 function changecolor()
    {
-     element.style.visibility="visible";
+    //  element.style.visibility="visible";
      element.style.backgroundColor=randomcolor();
    }
 function Takecord(e)
 {
-   let x_axis=e.clientX
-   let y_axis=e.clientY
-   element.style.top=y_axis + "px";
+   let x_axis=e.clientX - 34;
+   let y_axis=e.clientY -34;
+   element.style.top=y_axis + "px" ;
    element.style.left=x_axis + "px";
    
    changecolor()

@@ -8,9 +8,9 @@ div
     /* border-radius:50%; */
     width:70px;
     height: 70px;
-    visibility:hidden;
+    /* visibility:hidden; */
     position: absolute;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-
+    background-color: rgb(255, 254, 254);
     
 }
