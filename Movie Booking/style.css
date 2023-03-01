@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    color: white;
+    /* background:#d4d3d3c8; */
+    /* background-color: #D6a3fb; */
+    background: rgba(86, 84, 84, 0.773);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.pick-movie-container
+{
+    width: 580px;
+    height: 70px;
+    background: transparent;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.9px);
+    -webkit-backdrop-filter: blur(0.9px);
+    border: 1px solid rgba(22, 22, 22, 0.3);
+     position: relative;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     top:150px;
+    left:10px; 
+  
+}  
+
+
+
+.pick-movie
+{
+position: relative;
+ margin-top: 100px;
+ color: #121212;
+ font-size: 20px;
+
+}
+
+.screen-container 
+{
+    width:550px;
+    filter: drop-shadow(0px 10px 1px rgba(96, 96, 94, 0.5));
+}
+.screen
+{    
+     clip-path: polygon(0 0, 100% 0, 95% 85%, 6% 85%);
+     background-color: #fff;
+     margin-top:170px;
+     height: 100px;
+     width: 120%; 
+     right: 40px;
+     position: relative;
+}
+.seats-container
+{
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   
+}
+.seats-container > div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 14, 14);
+    font-weight: 600;
+    margin: 0 20px;
+   
+}
+span{
+    margin-left: 10px;
+}
+.seats 
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px ;
+    margin:13px;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(22, 22, 22, 0.555);
+    border-color:rgb(101, 100, 101);
+
+}
+.seats:nth-of-type(2)
+{
+    margin-right: 40px;
+}
+.seats:nth-last-of-type(2)
+{
+    margin-left: 40px;
+}
+.seats:not(.occupied):hover
+{
+    cursor: pointer;
+    transform: scale(1.4)
+}
+.seats-container .seats:not(.occupied):hover
+{
+    cursor: default;
+    transform: scale(1)
+}
+.seats-container  .seats
+{
+    position: relative;
+    left:10px;
+}
+
+.rows
+{
+    position: relative;
+    top:50px;
+    display: flex;
+    left:10px;
+}
+.occupied
+{
+    border-color: #8ec8f5; 
+    background-color:#6fbd72 ; 
+}
+.select
+{
+    border-color: #fff; 
+    background-color:#f1d72d ; 
+} 
+p{
+   
+    font-size: 30px;
+    font-weight: 500;
+    color:rgba(90, 39, 241, 0.749);
+    position: absolute;
+  
+}
+button
+{
+   border-radius: 20px;
+   border: none;
+   width:150px;
+   height: 50px;
+   font-size: 20px;
+   font-weight: 700;
+   color: #ffffff;
+   position: relative;
+   top:100px;
+   margin-left: 30px;
+   background:linear-gradient(to right,#f1d72d,#6fbd72);
+
+}
